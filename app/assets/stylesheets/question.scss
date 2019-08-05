@@ -1,0 +1,21 @@
+// Place all the styles related to the question controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$gray: #F4F4F4;
+
+body {
+  display: flex;
+  flex-direction: column;
+  background: $gray;
+  text-align: center;
+}
+
+form {
+  margin: auto;
+  box-shadow: 0 0 2px 1px black;
+}
+
+form > input {
+  margin: 4px;
+  padding: 8px;
+}
